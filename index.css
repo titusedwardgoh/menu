@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    width:600px;
+    margin: 0px auto;
+    height:167px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#banner {
+    width:600px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-text{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;    
+}
+
+#title {
+    font-size: 39px;
+    margin-bottom: 10px;
+}
+
+#tagline {
+    font-size: 22px;
+}
+
+#menu {
+    width:508px;
+    margin: 0px auto;
+}
+
+.item-add {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #DEDEDE ;
+    background: white;
+    font-size: 20px;
+    color: gray;
+    font-weight: 10px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.menu-item {
+    display: flex;
+    height:140px;
+    border-bottom: 1px solid #DEDEDE;
+    align-items: center;
+    justify-content: right;
+    margin: 20px auto;
+}
+
+.item-icon {
+    width:120px;
+    font-size: 70px;
+}
+
+.item-title {
+    font-size: 28px;
+}
+
+.item-ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.item-price {
+    font-size: 20px;
+}
+
+.ordered-items {
+    width:508px;
+    margin: 0px auto;
+    display: block;
+}
+
+.added-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    margin: 20px auto;
+    height: 40px;
+}
+
+#your-order {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.added-item-container button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #DEDEDE ;
+    color: gray;
+    margin: auto 20px auto 0px;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.complete-order {
+    width:508px;
+    height: 50px;
+    margin: 30px auto;
+    background-color: #16DB99;
+    border:none;
+    color: white;
+    font-size: 20px;
+}
+
+.total-price {
+    border-top: 2px solid black;
+    margin-top: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.multiplier {
+    width:30px;
+    margin-left: 20px;
+}
+
+.added-item {
+    width: 40px;
+    margin-right:50px;
+}
+
+.total-item-price {
+    margin-left: auto;
+    width: 30px;
+}
+
+.total-price {
+    font-size: 28px;
+}
+
+.hidden {
+    display: none;
+}
